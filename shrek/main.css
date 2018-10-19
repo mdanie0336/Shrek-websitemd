@@ -1,0 +1,25 @@
+div.surprise {
+  background-image: url('popup.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  position:fixed;
+  bottom: -450px;
+  right: -450px;
+  width: 900px;
+  height: 900px;
+  transition: bottom 2s, right 2s;
+}
+
+div.surprise:hover {
+  bottom: 0;
+  right: 0;
+}
+
+img.arrow {
+  opacity: 0.5;
+  transition: opacity 2s;
+}
+
+div.surprise:hover img.arrow {
+  opacity: 0.0;
+}
